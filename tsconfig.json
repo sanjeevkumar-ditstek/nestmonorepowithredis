@@ -1,0 +1,83 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/config": [
+        "libs/config/src"
+      ],
+      "@app/config/*": [
+        "libs/config/src/*"
+      ],
+      "@lib/helper": [
+        "libs/helper/src"
+      ],
+      "@lib/helper/*": [
+        "libs/helper/src/*"
+      ],
+      "@lib/sms": [
+        "libs/sms/src"
+      ],
+      "@lib/sms/*": [
+        "libs/sms/src/*"
+      ],
+      "@lib/templates": [
+        "libs/templates/src"
+      ],
+      "@lib/templates/*": [
+        "libs/templates/src/*"
+      ],
+      "@lib/logger": [
+        "libs/logger/src"
+      ],
+      "@lib/logger/*": [
+        "libs/logger/src/*"
+      ],
+      "@lib/message": [
+        "libs/message/src"
+      ],
+      "@lib/message/*": [
+        "libs/message/src/*"
+      ],
+      "@lib/responce": [
+        "libs/responce/src"
+      ],
+      "@lib/responce/*": [
+        "libs/responce/src/*"
+      ],
+      "@lib/interceptor": [
+        "libs/interceptor/src"
+      ],
+      "@lib/interceptor/*": [
+        "libs/interceptor/src/*"
+      ],
+      "@lib/validation": [
+        "libs/validation/src"
+      ],
+      "@lib/validation/*": [
+        "libs/validation/src/*"
+      ],
+      "@lib/guard": [
+        "libs/guard/src"
+      ],
+      "@lib/guard/*": [
+        "libs/guard/src/*"
+      ]
+    }
+  }
+}
